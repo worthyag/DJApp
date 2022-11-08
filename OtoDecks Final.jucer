@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yHnL4O" name="OtoDecks Final" projectType="guiapp" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="LxNI4j" name="OtoDecks Final">
+    <GROUP id="{C2EE91AC-F1E7-9AB9-D76D-A092527F8D22}" name="Source">
+      <GROUP id="{52F14212-9445-E5F1-26E2-C89921479C14}" name="Images">
+        <FILE id="IFeQeV" name="AddMultipleTracksBtn.png" compile="0" resource="1"
+              file="Images/AddMultipleTracksBtn.png"/>
+        <FILE id="TUOoqf" name="AddMultipleTracksOverBtn.png" compile="0" resource="1"
+              file="Images/AddMultipleTracksOverBtn.png"/>
+        <FILE id="c4DF2U" name="AddTrackBtn.png" compile="0" resource="1" file="Images/AddTrackBtn.png"/>
+        <FILE id="G3An3n" name="AddTrackOverBtn.png" compile="0" resource="1"
+              file="Images/AddTrackOverBtn.png"/>
+        <FILE id="sttRdG" name="BlueVinyl.png" compile="0" resource="1" file="Images/BlueVinyl.png"/>
+        <FILE id="VAIBzr" name="BlueVinylLarge.png" compile="0" resource="1"
+              file="Images/BlueVinylLarge.png"/>
+        <FILE id="zrXBld" name="BlueVinylOver.png" compile="0" resource="1"
+              file="Images/BlueVinylOver.png"/>
+        <FILE id="Vq08Vx" name="ForwardOffBtn.png" compile="0" resource="1"
+              file="Images/ForwardOffBtn.png"/>
+        <FILE id="JqacAn" name="ForwardOnBtn.png" compile="0" resource="1"
+              file="Images/ForwardOnBtn.png"/>
+        <FILE id="fV1TAe" name="KnobGreen.png" compile="0" resource="1" file="Images/KnobGreen.png"/>
+        <FILE id="yDEiq4" name="KnobGrey.png" compile="0" resource="1" file="Images/KnobGrey.png"/>
+        <FILE id="kn2vOi" name="KnobOrange.png" compile="0" resource="1" file="Images/KnobOrange.png"/>
+        <FILE id="rwxPPb" name="KnobRed.png" compile="0" resource="1" file="Images/KnobRed.png"/>
+        <FILE id="iZkW25" name="KnobYellow.png" compile="0" resource="1" file="Images/KnobYellow.png"/>
+        <FILE id="igGOKw" name="LoadBtn.png" compile="0" resource="1" file="Images/LoadBtn.png"/>
+        <FILE id="AqDl8p" name="LoadOffBtn.png" compile="0" resource="1" file="Images/LoadOffBtn.png"/>
+        <FILE id="iw8eSR" name="LoadOnBtn.png" compile="0" resource="1" file="Images/LoadOnBtn.png"/>
+        <FILE id="WlyNbJ" name="LoadOverBtn.png" compile="0" resource="1" file="Images/LoadOverBtn.png"/>
+        <FILE id="wrMQSO" name="LoopOffBtn.png" compile="0" resource="1" file="Images/LoopOffBtn.png"/>
+        <FILE id="wvmlBO" name="LoopOnBtn.png" compile="0" resource="1" file="Images/LoopOnBtn.png"/>
+        <FILE id="roUMcj" name="OtoDecksLogo.png" compile="0" resource="1"
+              file="Images/OtoDecksLogo.png"/>
+        <FILE id="X9x7wH" name="OtoDecksOverLogo.png" compile="0" resource="1"
+              file="Images/OtoDecksOverLogo.png"/>
+        <FILE id="tkEkey" name="PlayOffBtn.png" compile="0" resource="1" file="Images/PlayOffBtn.png"/>
+        <FILE id="j4ZuqJ" name="PlayOnBtn.png" compile="0" resource="1" file="Images/PlayOnBtn.png"/>
+        <FILE id="rrrZl1" name="RemoveTrackBtn.png" compile="0" resource="1"
+              file="Images/RemoveTrackBtn.png"/>
+        <FILE id="LynQ4Z" name="RemoveTrackOverBtn.png" compile="0" resource="1"
+              file="Images/RemoveTrackOverBtn.png"/>
+        <FILE id="V8ab3V" name="RewindOffBtn.png" compile="0" resource="1"
+              file="Images/RewindOffBtn.png"/>
+        <FILE id="AYYTuE" name="RewindOnBtn.png" compile="0" resource="1" file="Images/RewindOnBtn.png"/>
+      </GROUP>
+      <FILE id="JCiy40" name="DJLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/DJLookAndFeel.cpp"/>
+      <FILE id="BCwrx1" name="DJLookAndFeel.h" compile="0" resource="0" file="Source/DJLookAndFeel.h"/>
+      <FILE id="pM8qit" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="PdMSXV" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="oQ5Ksi" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="Z0ae1y" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="N9ttOb" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="DOAYaK" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="FFFrXu" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="iT3azC" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="RO0MLg" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="BQDmaj" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Aup2on" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_MP3AUDIOFORMAT="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks Final"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks Final"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
