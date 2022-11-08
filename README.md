@@ -1,5 +1,5 @@
-# OtoDecks-DJ-App
-OtoDecks is a DJ App built in C++, utilising the JUCE library. This was for a university project.<br>
+# DJ-App
+This is a DJ App built in C++, utilising the JUCE library. This was for a university project.<br>
 #### The structure of this repositry:
 
 * The report pdf details how I went about creating this application.
