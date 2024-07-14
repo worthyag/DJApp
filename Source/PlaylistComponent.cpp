@@ -39,7 +39,7 @@ PlaylistComponent::PlaylistComponent(AudioFormatManager &   _formatManager) : fo
         }
       
         // Iterates through vector containing the saved info.
-        for (int i = 0; i < savedFiles.size(); i++) {
+        for (int i = 0; i < savedFiles.size(); ++i) {
 
             std::stringstream extractData(savedFiles[i]);
             std::string metaDatum;
