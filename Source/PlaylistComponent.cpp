@@ -21,9 +21,11 @@ PlaylistComponent::PlaylistComponent(AudioFormatManager &   _formatManager) : fo
     // Create the file name.
     juce::File f = juce::File::getCurrentWorkingDirectory();
     std::string fname = f.getFullPathName().toStdString();
-    std::stringstream appendString;
-    appendString << fname << "playlist.txt";
-    std::string filename = appendString.str();
+//    std::stringstream appendString;
+//    appendString << fname << "playlist.txt";
+//    std::string filename = appendString.str();
+    
+    std::string filename = fname + "playlist.txt";
 
     currentPlaylistO.open(filename);
 
